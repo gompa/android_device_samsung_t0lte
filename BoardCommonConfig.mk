@@ -53,3 +53,6 @@ TARGET_OTA_ASSERT_DEVICE := t0lte,t0ltexx,GT-N7105,t0ltedv,GT-N7105T,t0lteatt,SG
 
 # Selinux
 BOARD_SEPOLICY_DIRS += device/samsung/t0lte/selinux
+
+# RIL Override
+BOARD_RIL_CLASS += ril/
